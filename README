@@ -1,0 +1,20 @@
+Spring boot microservice centralized swagger. 
+
+Step To setup:
+
+Step 1: run discovery service first
+	1. cd discovery-service
+	2. mvn clean install
+	3. java -jar target\discovery-service-0.0.1-SNAPSHOT.jar
+	3. Open browser http://localhost:8061/
+
+Step 2: run gateway-service
+
+	1. cd gateway-service
+	2. mvn clean install
+	3. java -jar target\gateway-service-0.0.1-SNAPSHOT.jar
+	3. Open browser http://localhost:8091/webjars/swagger-ui/index.html
+	
+Similarly run other three service	
+	
+	
